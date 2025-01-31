@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/TODO')
+mongoose.connect('mongodb+srv://arvindbalasubramanian587:ASDF1234@cluster0.jv1iw2i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
